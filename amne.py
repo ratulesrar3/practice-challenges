@@ -3,14 +3,15 @@
 # Ratul Esrar, 8/2/17
 
 
-'''
-for i in range(len(l)):
-    r = l[i:k+i]
-    d = {}
-    if len(r) is k:
-        for j in range(k):
-            print r[j]
-'''
+def segment_prices(input_list, k):
+    '''
+    '''
+    range_list = []
+    for i in range(len(input_list)):
+        l = input_list[i:k+i]
+        range_list.append(input_list)
+    return range_list
+    
 def analyze_subrange(prices, k):
     '''
     '''
